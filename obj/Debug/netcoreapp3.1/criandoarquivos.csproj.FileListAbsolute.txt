@@ -1,0 +1,13 @@
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.exe
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.deps.json
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.runtimeconfig.json
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.runtimeconfig.dev.json
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.dll
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\bin\Debug\netcoreapp3.1\criandoarquivos.pdb
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.csprojAssemblyReference.cache
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.csproj.CoreCompileInputs.cache
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.AssemblyInfoInputs.cache
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.AssemblyInfo.cs
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.dll
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.pdb
+C:\Users\Phellipe\Desktop\senai\c#\criandoarquivos\obj\Debug\netcoreapp3.1\criandoarquivos.genruntimeconfig.cache
