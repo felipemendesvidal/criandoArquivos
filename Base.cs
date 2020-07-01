@@ -20,7 +20,8 @@ namespace criandoarquivos
         //constantes sempre com letras maiusculas
         private const string PATH ="Database/dbase.csv";
 
-        //cria o arquivo caso não exista
+        
+        /// cria o arquivo caso não exista
         public Base(){
             if(!File.Exists(PATH)){
                 Directory.CreateDirectory("Database");
@@ -28,7 +29,7 @@ namespace criandoarquivos
             }
         }
 
-        //adiciona coisas no arquivo criado
+        ///adiciona coisas no arquivo criado
         public void Cadastrar (Base prod){
             var linha = new string[] {
                 PrepararLinha (prod)
@@ -39,6 +40,36 @@ namespace criandoarquivos
     private string PrepararLinha(Base lp){
         return $"Codigo={lp.Codigo};nome={lp.Nome};preco={lp.Preco};";
     }
+
+    //Le o arquivo svg e retorna lista 
+    public List<Base> Ler(){
+        //lista que seriva de retorno
+        List<Base> produtos = new List<Base>();
+
+        //lendo o arquivo e tranformando em array de linhas- pesquisar mais array
+        string[] linhas =File.ReadAllLines(PATH);
+
+        foreach(string linha in linhas){
+            //separando os dados
+            string[] dados = linha.Split(";");
+
+            //criando produtos para colocar na lista
+            Base pro = new Base();
+            pro.Codigo = Int32.Parse(SepararDados( dados[0]));
+            pro.Nome = SepararDados(dados[1]);
+            pro.Preco = float.Parse(SepararDados(dados[2]));
+
+            //adicionando a lista
+            produtos.Add(pro);
+        }
+        return produtos;
+    }
+
+    //separa dados em colunas
+    private string SepararDados(string coluna){
+
+            return coluna.Split("=")[1];        
+        }
 
         
     }
