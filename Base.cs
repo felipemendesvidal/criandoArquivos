@@ -7,6 +7,9 @@ namespace criandoarquivos
         public int Codigo { get; set; }
         public string Nome { get; set; }
         public float Preco { get; set; }
+        //constante que vai receber caminho do database
+        //constantes sempre com letras maiusculas
+        private const string PATH ="Database/dbase.csv";
 
         /*Desafio
         *Criando repositorio
@@ -16,11 +19,7 @@ namespace criandoarquivos
         }
         */
 
-        //constante que vai receber caminho do database
-        //constantes sempre com letras maiusculas
-        private const string PATH ="Database/dbase.csv";
-
-        
+        //construtor
         /// cria o arquivo caso não exista
         public Base(){
             if(!File.Exists(PATH)){
